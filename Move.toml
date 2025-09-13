@@ -1,0 +1,15 @@
+[package]
+name = "Basic-Token-Creation"
+version = "1.0.0"
+authors = []
+
+[addresses]
+token_creator="0xcf780ba53b53fa565d4a368ebcc768ec9e90049d6d84e52620c612473c0f3541"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
